@@ -15,7 +15,7 @@
   border: 1px solid #353b48;
   border-inline-start: 4px solid var(--accent);
   border-radius: 12px;
-  background-color: #191c24;
+   background-color: rgb(25 28 36 / 50%);
 }
 
 .project-card h3 {
