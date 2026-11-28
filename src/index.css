@@ -55,14 +55,6 @@ main {
   letter-spacing: -0.05em;
 }
 
-/* The intro paragraph immediately after your name */
-#about-title + p {
-  max-width: 55ch;
-  margin: 20px 0 0;
-  color: var(--muted);
-  font-size: clamp(1rem, 2vw, 1.25rem);
-}
-
 a {
   color: var(--accent);
   text-underline-offset: 0.2em;
@@ -113,4 +105,23 @@ a:focus-visible {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+/* About section bio */
+.about-tagline {
+  max-width: 55ch;
+  margin: 16px 0 28px;
+  color: var(--muted);
+  font-size: clamp(1.05rem, 2vw, 1.3rem);
+}
+
+.about-bio {
+  max-width: 60ch; /* keeps lines short and easy to read */
+  margin-bottom: 28px;
+}
+
+.about-bio p {
+  margin: 0 0 14px;
+  color: var(--text);
+  line-height: 1.7;
 }
